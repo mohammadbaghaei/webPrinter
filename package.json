@@ -1,0 +1,28 @@
+{
+  "name": "webserial",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.3.4"
+  },
+  "dependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@vitejs/plugin-legacy": "^5.4.1",
+    "glob": "^11.0.0",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "sharp": "^0.33.4",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-html": "^3.2.2",
+    "vite-plugin-imp": "^2.4.0",
+    "vite-plugin-mkcert": "^1.17.5",
+    "vite-plugin-pwa": "^0.20.0",
+    "vite-plugin-stylelint": "^5.3.1"
+  }
+}
